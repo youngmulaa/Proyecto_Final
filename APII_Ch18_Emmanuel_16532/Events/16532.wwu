@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{34941D53-FED7-4EA5-8CA1-589A55E6592F}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="16532" ID="{34941D53-FED7-4EA5-8CA1-589A55E6592F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="starup" ID="{12AD9AF6-9EEF-414C-AA68-08E41EF07744}">
+					<ChildrenList>
+						<Action Name="" ID="{C21520D1-EBA8-4CA6-BBD5-340B0FE09E5B}" ShortID="169730844">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="starup" ID="{70E66378-DC54-45BF-9FAA-52AD3C77EE4C}" WorkUnitID="{9EE19830-8331-4818-9AE4-F9833C14ED09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="dosup" ID="{ECBDD543-3FC2-44EA-99D5-ECD040499D87}">
+					<ChildrenList>
+						<Action Name="" ID="{F651DD03-B966-4516-8C2E-8E5F75122234}" ShortID="28078952">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dos_up" ID="{A3FE5719-C6A0-41F3-B576-0C8DBBC30DA9}" WorkUnitID="{9EE19830-8331-4818-9AE4-F9833C14ED09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="basurametal" ID="{0D60D835-FA6F-4541-8CC0-56C41396ADC4}">
+					<ChildrenList>
+						<Action Name="" ID="{6E5F2DA4-E3DE-4DC6-8543-0927C4278F25}" ShortID="773424283">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Basurero de metal" ID="{AB13CD30-0940-43F3-BEE3-7BC489495C32}" WorkUnitID="{9EE19830-8331-4818-9AE4-F9833C14ED09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="basuraverde" ID="{3BB7CBAB-D567-42E4-AAFA-85AC7AA8760B}">
+					<ChildrenList>
+						<Action Name="" ID="{5B606460-EAF1-4D34-AB82-BB3D4D489503}" ShortID="771250716">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Basurero verde" ID="{71A5882C-B985-4D68-8503-F292FEE7E8E4}" WorkUnitID="{9EE19830-8331-4818-9AE4-F9833C14ED09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="cono" ID="{1960060E-7C4E-4105-81BE-61D5A3EED847}">
+					<ChildrenList>
+						<Action Name="" ID="{75A68F0F-B45C-4869-AD2E-94FC6315690E}" ShortID="317085540">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cono" ID="{4D9C190A-E232-4C3D-9876-12A0191EC9A8}" WorkUnitID="{9EE19830-8331-4818-9AE4-F9833C14ED09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="vallaalta" ID="{8184C41A-D61E-4301-BE3D-0E95884ED78D}">
+					<ChildrenList>
+						<Action Name="" ID="{0E02EC5C-B024-4AC5-B281-43C08A6C041D}" ShortID="575173919">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Valla_Alta" ID="{7F1FA424-C463-43F6-A8D2-EBD0ECFF4FA9}" WorkUnitID="{9EE19830-8331-4818-9AE4-F9833C14ED09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="vallabaja" ID="{E6944B1B-1FBF-4477-AF64-A7D8EF1D663E}">
+					<ChildrenList>
+						<Action Name="" ID="{9018889C-275C-4DDF-AA60-98065ABBA5AA}" ShortID="846994949">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Valla_Baja" ID="{04413B89-1549-4FE6-8F2B-849659A1E5C9}" WorkUnitID="{9EE19830-8331-4818-9AE4-F9833C14ED09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="valladoble" ID="{45844A8D-E4C0-4B43-9054-690591F7C545}">
+					<ChildrenList>
+						<Action Name="" ID="{6410CB3B-0B13-43C7-8F2D-3C4401FF43BE}" ShortID="150710304">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Valla_Doble" ID="{6A493F93-AB35-4B0C-87CD-490A8EDDFF6A}" WorkUnitID="{9EE19830-8331-4818-9AE4-F9833C14ED09}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

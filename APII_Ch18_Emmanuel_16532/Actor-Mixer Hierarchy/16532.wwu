@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9EE19830-8331-4818-9AE4-F9833C14ED09}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="16532" ID="{9EE19830-8331-4818-9AE4-F9833C14ED09}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Basurero de metal" ID="{AB13CD30-0940-43F3-BEE3-7BC489495C32}" ShortID="569499095">
+					<PropertyList>
+						<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="BasuraMetal_Chocar_1" ID="{EFB0DC5C-BE18-4183-91D1-334B091F49E8}" ShortID="283363335">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Basura metal 1" ID="{85CE9F3B-27D5-4E16-A0CF-7F3B3236D2AC}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0505514150943397"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Basura metal 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="499893161"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Basura metal 1" ID="{85CE9F3B-27D5-4E16-A0CF-7F3B3236D2AC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BasuraMetal_Chocar_2" ID="{62E53DB6-E095-42EB-882E-E3AC997F65FA}" ShortID="696095168">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Basura metal 2" ID="{A02BA702-C490-4336-AB57-592A95917825}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.021692216981132"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Basura metal 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="263604490"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Basura metal 2" ID="{A02BA702-C490-4336-AB57-592A95917825}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BasuraMetal_Chocar_3" ID="{558F665B-6CB4-45CD-830A-CD6188A257F0}" ShortID="818892013">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Basura metal 3" ID="{0FF1392F-E1D2-483F-AAC7-54342E4E6A6B}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0820754716981131"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Basura metal 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="583290668"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Basura metal 3" ID="{0FF1392F-E1D2-483F-AAC7-54342E4E6A6B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Valla_Alta" ID="{7F1FA424-C463-43F6-A8D2-EBD0ECFF4FA9}" ShortID="607852486">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Valla_Alta_Chocar_1" ID="{F18644F8-E610-415C-B8FA-9E0C8C7F55F7}" ShortID="233281401">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Valla_Alta_Chocar_1" ID="{1443AE2A-0584-4A1E-9A43-A4349058BBE5}">
+									<Language>SFX</Language>
+									<AudioFile>Valla_Alta_Chocar_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="133830701"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Valla_Alta_Chocar_1" ID="{1443AE2A-0584-4A1E-9A43-A4349058BBE5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Valla_Alta_Chocar_2" ID="{006C3B93-6891-4743-9D59-05D7EB3AF80F}" ShortID="528347985">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Valla_Alta_Chocar_2" ID="{4F6E9A85-FF41-4C30-BA4D-633C2F896EC7}">
+									<Language>SFX</Language>
+									<AudioFile>Valla_Alta_Chocar_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="374513752"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Valla_Alta_Chocar_2" ID="{4F6E9A85-FF41-4C30-BA4D-633C2F896EC7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Valla_Alta_Chocar_3" ID="{33AA7A59-455B-4C7F-9882-539C23B47449}" ShortID="792335916">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Valla_Alta_Chocar_3" ID="{5473F27D-96ED-4BDF-BB65-89251BCD9B7A}">
+									<Language>SFX</Language>
+									<AudioFile>Valla_Alta_Chocar_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="140513487"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Valla_Alta_Chocar_3" ID="{5473F27D-96ED-4BDF-BB65-89251BCD9B7A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Valla_Doble" ID="{6A493F93-AB35-4B0C-87CD-490A8EDDFF6A}" ShortID="669438527">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Valla_Doble_Chocar_1" ID="{A0CA958C-6665-4A4C-9024-07B6773922E3}" ShortID="514151024">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Valla_Doble_Chocar_1" ID="{781A31B4-2CF7-47A8-942F-4E0675A65EF5}">
+									<Language>SFX</Language>
+									<AudioFile>Valla_Doble_Chocar_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="248067410"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Valla_Doble_Chocar_1" ID="{781A31B4-2CF7-47A8-942F-4E0675A65EF5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Valla_Doble_Chocar_2" ID="{2F64F249-894A-49AC-B635-3C73E889097D}" ShortID="651221063">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Valla_Doble_Chocar_2" ID="{B25414EE-49F9-4B7E-93B0-DF73E9B6253B}">
+									<Language>SFX</Language>
+									<AudioFile>Valla_Doble_Chocar_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="823373834"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Valla_Doble_Chocar_2" ID="{B25414EE-49F9-4B7E-93B0-DF73E9B6253B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Valla_Doble_Chocar_3" ID="{C89D7854-8AB7-4FCC-8750-3E0D2EA9A80B}" ShortID="175257905">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Valla_Doble_Chocar_3" ID="{89189F1A-EF1F-45ED-88E5-7E0008886339}">
+									<Language>SFX</Language>
+									<AudioFile>Valla_Doble_Chocar_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="229889114"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Valla_Doble_Chocar_3" ID="{89189F1A-EF1F-45ED-88E5-7E0008886339}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Basurero verde" ID="{71A5882C-B985-4D68-8503-F292FEE7E8E4}" ShortID="646803721">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Basura_Verde_Chocar_1" ID="{A51A0D7B-58E6-43F0-9023-8092224CAD05}" ShortID="561245567">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Basura_Verde_Chocar_1" ID="{39663D8F-7144-4918-9C0F-6F30B825303A}">
+									<Language>SFX</Language>
+									<AudioFile>Basura_Verde_Chocar_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="487927854"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Basura_Verde_Chocar_1" ID="{39663D8F-7144-4918-9C0F-6F30B825303A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Basura_Verde_Chocar_2" ID="{D0114417-F190-453B-A212-396FBC933437}" ShortID="825306645">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Basura_Verde_Chocar_2" ID="{1707FAFD-B06A-4F11-A3B5-180413BB6A90}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0452830188679245"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Basura_Verde_Chocar_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1056369216"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Basura_Verde_Chocar_2" ID="{1707FAFD-B06A-4F11-A3B5-180413BB6A90}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Basura_Verde_Chocar_3" ID="{F80AFBBC-BEAB-4690-A38F-CFE7E9692FAC}" ShortID="304898196">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Basura_Verde_Chocar_3" ID="{9E690D1A-B553-41ED-91DD-B073924BE006}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.117937303459119"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Basura_Verde_Chocar_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1066955445"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Basura_Verde_Chocar_3" ID="{9E690D1A-B553-41ED-91DD-B073924BE006}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Valla_Baja" ID="{04413B89-1549-4FE6-8F2B-849659A1E5C9}" ShortID="372149650">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Valla _Baja_Chocar_1" ID="{7F0212AB-1B4F-4EBB-988F-193E397A4954}" ShortID="345203276">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Valla _Baja_Chocar_1" ID="{7E283C40-EC1D-4862-B480-3E9233BA1C21}">
+									<Language>SFX</Language>
+									<AudioFile>Valla _Baja_Chocar_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1024902077"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Valla _Baja_Chocar_1" ID="{7E283C40-EC1D-4862-B480-3E9233BA1C21}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Valla _Baja_Chocar_2" ID="{7DD9D419-B79B-4876-8FC3-C130D09356CD}" ShortID="100012453">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Valla _Baja_Chocar_2" ID="{C661FFB7-3673-4E1A-A227-0247CC02472D}">
+									<Language>SFX</Language>
+									<AudioFile>Valla _Baja_Chocar_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1000781507"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Valla _Baja_Chocar_2" ID="{C661FFB7-3673-4E1A-A227-0247CC02472D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Valla _Baja_Chocar_3" ID="{A1659A7B-4528-4AFF-BE07-1A066189BCA5}" ShortID="512247364">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Valla _Baja_Chocar_3" ID="{84D7FD1F-DB83-4711-B803-4176267C8B88}">
+									<Language>SFX</Language>
+									<AudioFile>Valla _Baja_Chocar_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="702754407"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Valla _Baja_Chocar_3" ID="{84D7FD1F-DB83-4711-B803-4176267C8B88}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Cono" ID="{4D9C190A-E232-4C3D-9876-12A0191EC9A8}" ShortID="199227895">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Cono_Chocar_1" ID="{9503181D-87C2-42EC-9B6D-288E9B0306E9}" ShortID="126352299">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cono_Chocar_1" ID="{9A04BCDF-D94F-48AC-AE3C-750D695D1CD1}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0330188679245282"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Cono_Chocar_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="770749813"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cono_Chocar_1" ID="{9A04BCDF-D94F-48AC-AE3C-750D695D1CD1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cono_Chocar_2" ID="{5D013C0F-A5BF-4A37-AD5E-D6B776EB567A}" ShortID="97552616">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cono_Chocar_2" ID="{DB6BDFA8-CCB8-49D4-BA25-FDEFCA1257DF}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.106132075471698"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Cono_Chocar_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="790019668"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cono_Chocar_2" ID="{DB6BDFA8-CCB8-49D4-BA25-FDEFCA1257DF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cono_Chocar_3" ID="{9C97BF91-4C4B-49E3-BC12-AF99D68FFA1C}" ShortID="562363741">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cono_Chocar_3" ID="{89DA14EC-09A1-4529-ADD3-B8720F0E248B}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.127358490566038"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Cono_Chocar_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="111802474"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cono_Chocar_3" ID="{89DA14EC-09A1-4529-ADD3-B8720F0E248B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="starup" ID="{70E66378-DC54-45BF-9FAA-52AD3C77EE4C}" ShortID="643143047">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="starup" ID="{9B286C7D-002A-45CA-915D-65B9025F9DC7}">
+							<Language>SFX</Language>
+							<AudioFile>starup.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="804666374"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="starup" ID="{9B286C7D-002A-45CA-915D-65B9025F9DC7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="dos_up" ID="{A3FE5719-C6A0-41F3-B576-0C8DBBC30DA9}" ShortID="834284270">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="dos_up" ID="{36EB32A2-1F98-44D9-A506-CA883CA44725}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0943396226415079"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="15"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>dos_up.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="388422600"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="dos_up" ID="{36EB32A2-1F98-44D9-A506-CA883CA44725}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

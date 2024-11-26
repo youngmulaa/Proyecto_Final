@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{293C50BE-798C-4EF0-A5C9-4FBE073E99E9}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="14258" ID="{293C50BE-798C-4EF0-A5C9-4FBE073E99E9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="ratdie" ID="{C755EF7F-50E8-4540-BDCF-6E049EF09F3B}">
+					<ChildrenList>
+						<Action Name="" ID="{97481E95-8564-47B2-AD8C-0DFC14AE27FB}" ShortID="1032869624">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dead_Rat" ID="{4E94CBFF-5110-442D-B7EB-6FD4D7ED77A3}" WorkUnitID="{1273D4BD-EC4D-4116-8B00-3227A72761FA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="imanup" ID="{AEDDABE4-6687-4A1D-A076-DB4F35BAE9FD}">
+					<ChildrenList>
+						<Action Name="" ID="{9DDD4700-3B43-4B36-B988-3F707C0DDC8C}" ShortID="638373739">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IMAN16" ID="{A7A6C7DD-2DDE-4E99-B8D6-553770DA15A2}" WorkUnitID="{1273D4BD-EC4D-4116-8B00-3227A72761FA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="rataviva" ID="{33A42D41-A281-40A0-8662-1003BF88461D}">
+					<ChildrenList>
+						<Action Name="" ID="{D01AC68D-3F51-4AB1-87C6-04C37462508E}" ShortID="467784763">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Raton16" ID="{FCA6A6EA-247E-4095-B4D8-922AAE86F4C9}" WorkUnitID="{1273D4BD-EC4D-4116-8B00-3227A72761FA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="imanidle" ID="{CD485B77-B4FF-42BB-AD8A-AD0A5A86C28C}">
+					<ChildrenList>
+						<Action Name="" ID="{7C0D4579-4B8E-4C02-89B3-5DC1BCA2F8DA}" ShortID="489845610">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Electricity, Buzz &amp; Hum, Fluorecent Light, Steady SND7984 3" ID="{96508176-5ECF-478C-9AC1-D713978D1EFA}" WorkUnitID="{1273D4BD-EC4D-4116-8B00-3227A72761FA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

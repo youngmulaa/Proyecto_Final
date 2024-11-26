@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{41F0D5E2-9424-44C4-B4B1-3389EB78E179}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{41F0D5E2-9424-44C4-B4B1-3389EB78E179}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Gato1" ID="{35A8242A-3783-4E5D-90C6-36613E6B6847}">
+					<ObjectInclusionList>
+						<ObjectRef Name="rataviva" ID="{33A42D41-A281-40A0-8662-1003BF88461D}" WorkUnitID="{293C50BE-798C-4EF0-A5C9-4FBE073E99E9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="cono" ID="{1960060E-7C4E-4105-81BE-61D5A3EED847}" WorkUnitID="{34941D53-FED7-4EA5-8CA1-589A55E6592F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="starup" ID="{12AD9AF6-9EEF-414C-AA68-08E41EF07744}" WorkUnitID="{34941D53-FED7-4EA5-8CA1-589A55E6592F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="imanidle" ID="{CD485B77-B4FF-42BB-AD8A-AD0A5A86C28C}" WorkUnitID="{293C50BE-798C-4EF0-A5C9-4FBE073E99E9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="basuraverde" ID="{3BB7CBAB-D567-42E4-AAFA-85AC7AA8760B}" WorkUnitID="{34941D53-FED7-4EA5-8CA1-589A55E6592F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="vallaalta" ID="{8184C41A-D61E-4301-BE3D-0E95884ED78D}" WorkUnitID="{34941D53-FED7-4EA5-8CA1-589A55E6592F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="vallabaja" ID="{E6944B1B-1FBF-4477-AF64-A7D8EF1D663E}" WorkUnitID="{34941D53-FED7-4EA5-8CA1-589A55E6592F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="dosup" ID="{ECBDD543-3FC2-44EA-99D5-ECD040499D87}" WorkUnitID="{34941D53-FED7-4EA5-8CA1-589A55E6592F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ratdie" ID="{C755EF7F-50E8-4540-BDCF-6E049EF09F3B}" WorkUnitID="{293C50BE-798C-4EF0-A5C9-4FBE073E99E9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="basurametal" ID="{0D60D835-FA6F-4541-8CC0-56C41396ADC4}" WorkUnitID="{34941D53-FED7-4EA5-8CA1-589A55E6592F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="imanup" ID="{AEDDABE4-6687-4A1D-A076-DB4F35BAE9FD}" WorkUnitID="{293C50BE-798C-4EF0-A5C9-4FBE073E99E9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="valladoble" ID="{45844A8D-E4C0-4B43-9054-690591F7C545}" WorkUnitID="{34941D53-FED7-4EA5-8CA1-589A55E6592F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

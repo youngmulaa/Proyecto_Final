@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1273D4BD-EC4D-4116-8B00-3227A72761FA}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="14258" ID="{1273D4BD-EC4D-4116-8B00-3227A72761FA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Dead_Rat" ID="{4E94CBFF-5110-442D-B7EB-6FD4D7ED77A3}" ShortID="817142103">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Dead_Rat" ID="{8CB60875-C94C-4354-BA6F-54581636649F}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0150943396226415"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Dead_Rat.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="122771692"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Dead_Rat" ID="{8CB60875-C94C-4354-BA6F-54581636649F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Raton16" ID="{FCA6A6EA-247E-4095-B4D8-922AAE86F4C9}" ShortID="639457512">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+						<Property Name="LoopCount" Type="int32" Value="4"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{13875726-70F7-4E75-9985-74B7B66D721C}" WorkUnitID="{0B04C6DC-502B-4E62-A0D6-B9955613DA8A}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Raton16" ID="{6DB18863-C671-43FD-8F22-539CF1561B87}">
+							<Language>SFX</Language>
+							<AudioFile>Raton16.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1029030133"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Raton16" ID="{6DB18863-C671-43FD-8F22-539CF1561B87}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="IMAN16" ID="{A7A6C7DD-2DDE-4E99-B8D6-553770DA15A2}" ShortID="291973453">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="IMAN16" ID="{5B5DF3F5-AE86-4E8E-A96E-310CE28F3010}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.138679245283019"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="15"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>IMAN16.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="163917707"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="IMAN16" ID="{5B5DF3F5-AE86-4E8E-A96E-310CE28F3010}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Electricity, Buzz &amp; Hum, Fluorecent Light, Steady SND7984 3" ID="{96508176-5ECF-478C-9AC1-D713978D1EFA}" ShortID="535055206">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="New Attenuation" ID="{13875726-70F7-4E75-9985-74B7B66D721C}" WorkUnitID="{0B04C6DC-502B-4E62-A0D6-B9955613DA8A}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Electricity, Buzz &amp; Hum, Fluorecent Light, Steady SND7984 3" ID="{B8A30493-826D-48E6-9037-780B5FB1C57D}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.0958130896226415"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimEnd" Type="Real64" Value="15"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Electricity, Buzz &amp; Hum, Fluorecent Light, Steady SND7984 3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="312190690"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Electricity, Buzz &amp; Hum, Fluorecent Light, Steady SND7984 3" ID="{B8A30493-826D-48E6-9037-780B5FB1C57D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

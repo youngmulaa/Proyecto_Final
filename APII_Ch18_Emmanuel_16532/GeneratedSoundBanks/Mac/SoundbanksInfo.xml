@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F7C054B5-F059-B977-4193-2A4175F39318}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="822163944" Name="SS_Air_RPM"/>
+				<GameParameter Id="1029930033" Name="SS_Air_Fury"/>
+				<GameParameter Id="1351367891" Name="SS_Air_Fear"/>
+				<GameParameter Id="2648548617" Name="SS_Air_Month"/>
+				<GameParameter Id="3002758120" Name="SS_Air_Freefall"/>
+				<GameParameter Id="3074696722" Name="SS_Air_Size"/>
+				<GameParameter Id="3203397129" Name="SS_Air_TimeOfDay"/>
+				<GameParameter Id="3715662592" Name="SS_Air_Storm"/>
+				<GameParameter Id="3847924954" Name="SS_Air_Presence"/>
+				<GameParameter Id="4160247818" Name="SS_Air_Turbulence"/>
+			</GameParameters>
+			<AcousticTextures>
+				<AcousticTexture Id="504532776" Name="Brick">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="18"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="23"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="513139656" Name="Mountain">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="841620460" Name="Concrete">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="6"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="14"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1755085759" Name="Wood_Deep">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="1"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="8"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1873957695" Name="Anechoic">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="1970351858" Name="Fabric">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="3"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="13"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="48"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="72"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2058049674" Name="Wood">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="20"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="35"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2412606308" Name="Carpet">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="46"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="45"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="76"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2637588553" Name="Tile">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="67"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="41"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="12"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="0"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="2928161104" Name="Curtains">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="7"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="60"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="0"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="84"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3195498748" Name="Cork_Tiles">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="14"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="30"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="73"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="3670307564" Name="Drywall">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="2"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="2"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4168643977" Name="Acoustic_Banner">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="37"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="100"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="100"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+				<AcousticTexture Id="4262522749" Name="Wood_Bright">
+					<Properties>
+						<Property Name="AbsorptionLow" Type="Real32" Value="32"/>
+						<Property Name="AbsorptionMidLow" Type="Real32" Value="25"/>
+						<Property Name="AbsorptionMidHigh" Type="Real32" Value="10"/>
+						<Property Name="AbsorptionHigh" Type="Real32" Value="9"/>
+						<Property Name="Scattering" Type="Real32" Value="0"/>
+					</Properties>
+				</AcousticTexture>
+			</AcousticTextures>
+		</SoundBank>
+		<SoundBank Id="2807535479" Type="User" Language="SFX" Hash="{5E0377DE-16AF-C750-F506-9607744140BD}">
+			<ShortName>Gato1</ShortName>
+			<Path>Gato1.bnk</Path>
+			<Media>
+				<File Id="111802474" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cono_Chocar_3.wav</ShortName>
+					<CachePath>SFX/Cono_Chocar_3_D7ADF005.wem</CachePath>
+				</File>
+				<File Id="122771692" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Dead_Rat.wav</ShortName>
+					<CachePath>SFX/Dead_Rat_D5BB352E.wem</CachePath>
+				</File>
+				<File Id="133830701" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Valla_Alta_Chocar_1.wav</ShortName>
+					<CachePath>SFX/Valla_Alta_Chocar_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="140513487" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Valla_Alta_Chocar_3.wav</ShortName>
+					<CachePath>SFX/Valla_Alta_Chocar_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="163917707" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>IMAN16.wav</ShortName>
+					<CachePath>SFX/IMAN16_472D094B.wem</CachePath>
+				</File>
+				<File Id="229889114" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Valla_Doble_Chocar_3.wav</ShortName>
+					<CachePath>SFX/Valla_Doble_Chocar_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="248067410" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Valla_Doble_Chocar_1.wav</ShortName>
+					<CachePath>SFX/Valla_Doble_Chocar_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="263604490" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Basura metal 2.wav</ShortName>
+					<CachePath>SFX/Basura metal 2_70BA5747.wem</CachePath>
+				</File>
+				<File Id="312190690" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Electricity, Buzz &amp; Hum, Fluorecent Light, Steady SND7984 3.wav</ShortName>
+					<CachePath>SFX/Electricity, Buzz &amp; Hum, Fluorecent Light, Steady SND7984 3_1D777866.wem</CachePath>
+				</File>
+				<File Id="374513752" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Valla_Alta_Chocar_2.wav</ShortName>
+					<CachePath>SFX/Valla_Alta_Chocar_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="388422600" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>dos_up.wav</ShortName>
+					<CachePath>SFX/dos_up_47141424.wem</CachePath>
+				</File>
+				<File Id="487927854" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Basura_Verde_Chocar_1.wav</ShortName>
+					<CachePath>SFX/Basura_Verde_Chocar_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="499893161" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Basura metal 1.wav</ShortName>
+					<CachePath>SFX/Basura metal 1_47A0BFF9.wem</CachePath>
+				</File>
+				<File Id="583290668" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Basura metal 3.wav</ShortName>
+					<CachePath>SFX/Basura metal 3_702C784C.wem</CachePath>
+				</File>
+				<File Id="702754407" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Valla _Baja_Chocar_3.wav</ShortName>
+					<CachePath>SFX/Valla _Baja_Chocar_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="770749813" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cono_Chocar_1.wav</ShortName>
+					<CachePath>SFX/Cono_Chocar_1_0C6507A3.wem</CachePath>
+				</File>
+				<File Id="790019668" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Cono_Chocar_2.wav</ShortName>
+					<CachePath>SFX/Cono_Chocar_2_32A5CD10.wem</CachePath>
+				</File>
+				<File Id="804666374" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>starup.wav</ShortName>
+					<CachePath>SFX/starup_DF3F31DC.wem</CachePath>
+				</File>
+				<File Id="823373834" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Valla_Doble_Chocar_2.wav</ShortName>
+					<CachePath>SFX/Valla_Doble_Chocar_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1000781507" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Valla _Baja_Chocar_2.wav</ShortName>
+					<CachePath>SFX/Valla _Baja_Chocar_2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1024902077" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Valla _Baja_Chocar_1.wav</ShortName>
+					<CachePath>SFX/Valla _Baja_Chocar_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1029030133" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Raton16.wav</ShortName>
+					<CachePath>SFX/Raton16_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1056369216" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Basura_Verde_Chocar_2.wav</ShortName>
+					<CachePath>SFX/Basura_Verde_Chocar_2_4AE6109F.wem</CachePath>
+				</File>
+				<File Id="1066955445" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Basura_Verde_Chocar_3.wav</ShortName>
+					<CachePath>SFX/Basura_Verde_Chocar_3_D62458F1.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1558471490" Name="basurametal" DurationType="OneShot" DurationMin="0.74422914" DurationMax="0.884375">
+					<MediaRefs>
+						<MediaRef Id="263604490"/>
+						<MediaRef Id="499893161"/>
+						<MediaRef Id="583290668"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2329400853" Name="basuraverde" DurationType="OneShot" DurationMin="0.32708332" DurationMax="1.4536458">
+					<MediaRefs>
+						<MediaRef Id="487927854"/>
+						<MediaRef Id="1056369216"/>
+						<MediaRef Id="1066955445"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3720716434" Name="cono" DurationType="OneShot" DurationMin="0.625" DurationMax="1.125">
+					<MediaRefs>
+						<MediaRef Id="111802474"/>
+						<MediaRef Id="770749813"/>
+						<MediaRef Id="790019668"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2103114554" Name="dosup" DurationType="OneShot" DurationMin="10" DurationMax="10">
+					<MediaRefs>
+						<MediaRef Id="388422600"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3376098376" Name="imanidle" MaxAttenuation="100" DurationType="OneShot" DurationMin="15" DurationMax="15">
+					<MediaRefs>
+						<MediaRef Id="312190690"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1268498129" Name="imanup" DurationType="OneShot" DurationMin="15" DurationMax="15">
+					<MediaRefs>
+						<MediaRef Id="163917707"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3889758431" Name="rataviva" MaxAttenuation="100" DurationType="OneShot" DurationMin="15.00186" DurationMax="15.00186">
+					<MediaRefs>
+						<MediaRef Id="1029030133"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="369285956" Name="ratdie" DurationType="OneShot" DurationMin="2" DurationMax="2">
+					<MediaRefs>
+						<MediaRef Id="122771692"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1005958706" Name="starup" DurationType="OneShot" DurationMin="10" DurationMax="10">
+					<MediaRefs>
+						<MediaRef Id="804666374"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3551307733" Name="vallaalta" DurationType="OneShot" DurationMin="0.7134167" DurationMax="0.87664586">
+					<MediaRefs>
+						<MediaRef Id="133830701"/>
+						<MediaRef Id="140513487"/>
+						<MediaRef Id="374513752"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="118877035" Name="vallabaja" DurationType="OneShot" DurationMin="1.0302083" DurationMax="1.30625">
+					<MediaRefs>
+						<MediaRef Id="702754407"/>
+						<MediaRef Id="1000781507"/>
+						<MediaRef Id="1024902077"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3271273223" Name="valladoble" DurationType="OneShot" DurationMin="1" DurationMax="1.1666666">
+					<MediaRefs>
+						<MediaRef Id="229889114"/>
+						<MediaRef Id="248067410"/>
+						<MediaRef Id="823373834"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{84C32033-6304-85C8-4053-1C9342F63A7B}</FileHash>
+</SoundBanksInfo>
