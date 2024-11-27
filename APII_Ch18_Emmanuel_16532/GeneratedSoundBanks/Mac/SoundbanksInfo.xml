@@ -162,7 +162,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="2807535479" Type="User" Language="SFX" Hash="{5E0377DE-16AF-C750-F506-9607744140BD}">
+		<SoundBank Id="2807535479" Type="User" Language="SFX" Hash="{28276CEF-B53B-A1CE-FBD2-8B327521EC4B}">
 			<ShortName>Gato1</ShortName>
 			<Path>Gato1.bnk</Path>
 			<Media>
@@ -172,7 +172,7 @@
 				</File>
 				<File Id="122771692" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Dead_Rat.wav</ShortName>
-					<CachePath>SFX/Dead_Rat_D5BB352E.wem</CachePath>
+					<CachePath>SFX/Dead_Rat_A0DFED51.wem</CachePath>
 				</File>
 				<File Id="133830701" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Valla_Alta_Chocar_1.wav</ShortName>
@@ -184,7 +184,7 @@
 				</File>
 				<File Id="163917707" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>IMAN16.wav</ShortName>
-					<CachePath>SFX/IMAN16_472D094B.wem</CachePath>
+					<CachePath>SFX/IMAN16_F58792BB.wem</CachePath>
 				</File>
 				<File Id="229889114" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Valla_Doble_Chocar_3.wav</ShortName>
@@ -200,7 +200,7 @@
 				</File>
 				<File Id="312190690" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Electricity, Buzz &amp; Hum, Fluorecent Light, Steady SND7984 3.wav</ShortName>
-					<CachePath>SFX/Electricity, Buzz &amp; Hum, Fluorecent Light, Steady SND7984 3_1D777866.wem</CachePath>
+					<CachePath>SFX/Electricity, Buzz &amp; Hum, Fluorecent Light, Steady SND7984 3_4FF8404E.wem</CachePath>
 				</File>
 				<File Id="374513752" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Valla_Alta_Chocar_2.wav</ShortName>
@@ -208,7 +208,7 @@
 				</File>
 				<File Id="388422600" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>dos_up.wav</ShortName>
-					<CachePath>SFX/dos_up_47141424.wem</CachePath>
+					<CachePath>SFX/dos_up_90602617.wem</CachePath>
 				</File>
 				<File Id="487927854" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Basura_Verde_Chocar_1.wav</ShortName>
@@ -236,7 +236,7 @@
 				</File>
 				<File Id="804666374" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>starup.wav</ShortName>
-					<CachePath>SFX/starup_DF3F31DC.wem</CachePath>
+					<CachePath>SFX/starup_818F3B66.wem</CachePath>
 				</File>
 				<File Id="823373834" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Valla_Doble_Chocar_2.wav</ShortName>
@@ -252,7 +252,7 @@
 				</File>
 				<File Id="1029030133" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Raton16.wav</ShortName>
-					<CachePath>SFX/Raton16_818F3B66.wem</CachePath>
+					<CachePath>SFX/Raton16_FBC78EF0.wem</CachePath>
 				</File>
 				<File Id="1056369216" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Basura_Verde_Chocar_2.wav</ShortName>
@@ -285,12 +285,12 @@
 						<MediaRef Id="790019668"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2103114554" Name="dosup" DurationType="OneShot" DurationMin="10" DurationMax="10">
+				<Event Id="2103114554" Name="dosup" DurationType="OneShot" DurationMin="15" DurationMax="15">
 					<MediaRefs>
 						<MediaRef Id="388422600"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3376098376" Name="imanidle" MaxAttenuation="100" DurationType="OneShot" DurationMin="15" DurationMax="15">
+				<Event Id="3376098376" Name="imanidle" MaxAttenuation="100" DurationType="OneShot" DurationMin="30" DurationMax="30">
 					<MediaRefs>
 						<MediaRef Id="312190690"/>
 					</MediaRefs>
@@ -300,7 +300,7 @@
 						<MediaRef Id="163917707"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3889758431" Name="rataviva" MaxAttenuation="100" DurationType="OneShot" DurationMin="15.00186" DurationMax="15.00186">
+				<Event Id="3889758431" Name="rataviva" MaxAttenuation="100" DurationType="OneShot" DurationMin="30.00372" DurationMax="30.00372">
 					<MediaRefs>
 						<MediaRef Id="1029030133"/>
 					</MediaRefs>
@@ -310,7 +310,7 @@
 						<MediaRef Id="122771692"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1005958706" Name="starup" DurationType="OneShot" DurationMin="10" DurationMax="10">
+				<Event Id="1005958706" Name="starup" DurationType="OneShot" DurationMin="16.625" DurationMax="16.625">
 					<MediaRefs>
 						<MediaRef Id="804666374"/>
 					</MediaRefs>
@@ -339,5 +339,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{84C32033-6304-85C8-4053-1C9342F63A7B}</FileHash>
+	<FileHash>{EC80FE69-ECEF-A931-3A3F-98DFFB111A5E}</FileHash>
 </SoundBanksInfo>

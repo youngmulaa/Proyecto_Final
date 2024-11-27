@@ -13,28 +13,28 @@ Event	ID	Name			Wwise Object Path	Notes
 	3889758431	rataviva			\14258\rataviva	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	111802474	Cono_Chocar_3	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Cono_Chocar_3_D7ADF005.wem		\Actor-Mixer Hierarchy\16532\Cono\Cono_Chocar_3		216160
-	122771692	Dead_Rat	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Dead_Rat_D5BB352E.wem		\Actor-Mixer Hierarchy\14258\Dead_Rat		384160
-	133830701	Valla_Alta_Chocar_1	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Valla_Alta_Chocar_1_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Valla_Alta\Valla_Alta_Chocar_1		137136
-	140513487	Valla_Alta_Chocar_3	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Valla_Alta_Chocar_3_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Valla_Alta\Valla_Alta_Chocar_3		137136
-	163917707	IMAN16	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\IMAN16_472D094B.wem		\Actor-Mixer Hierarchy\14258\IMAN16		2646096
-	229889114	Valla_Doble_Chocar_3	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Valla_Doble_Chocar_3_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Valla_Doble\Valla_Doble_Chocar_3		224160
-	248067410	Valla_Doble_Chocar_1	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Valla_Doble_Chocar_1_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Valla_Doble\Valla_Doble_Chocar_1		192160
-	263604490	BasuraMetal_Chocar_2	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Basura metal 2_70BA5747.wem		\Actor-Mixer Hierarchy\16532\Basurero de metal\BasuraMetal_Chocar_2		169960
-	312190690	Electricity, Buzz & Hum, Fluorecent Light, Steady SND7984 3	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Electricity, Buzz & Hum, Fluorecent Light, Steady SND7984 3_1D777866.wem		\Actor-Mixer Hierarchy\14258\Electricity, Buzz & Hum, Fluorecent Light, Steady SND7984 3		2880096
-	374513752	Valla_Alta_Chocar_2	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Valla_Alta_Chocar_2_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Valla_Alta\Valla_Alta_Chocar_2		168476
-	388422600	dos_up	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\dos_up_47141424.wem		\Actor-Mixer Hierarchy\16532\dos_up		1920160
-	487927854	Basura_Verde_Chocar_1	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Basura_Verde_Chocar_1_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Basurero verde\Basura_Verde_Chocar_1		62960
-	499893161	BasuraMetal_Chocar_1	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Basura metal 1_47A0BFF9.wem		\Actor-Mixer Hierarchy\16532\Basurero de metal\BasuraMetal_Chocar_1		143052
-	583290668	BasuraMetal_Chocar_3	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Basura metal 3_702C784C.wem		\Actor-Mixer Hierarchy\16532\Basurero de metal\BasuraMetal_Chocar_3		144160
-	702754407	Valla _Baja_Chocar_3	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Valla _Baja_Chocar_3_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Valla_Baja\Valla _Baja_Chocar_3		197960
-	770749813	Cono_Chocar_1	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Cono_Chocar_1_0C6507A3.wem		\Actor-Mixer Hierarchy\16532\Cono\Cono_Chocar_1		120160
-	790019668	Cono_Chocar_2	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Cono_Chocar_2_32A5CD10.wem		\Actor-Mixer Hierarchy\16532\Cono\Cono_Chocar_2		216160
-	804666374	starup	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\starup_DF3F31DC.wem		\Actor-Mixer Hierarchy\16532\starup		1920160
-	823373834	Valla_Doble_Chocar_2	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Valla_Doble_Chocar_2_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Valla_Doble\Valla_Doble_Chocar_2		221460
-	1000781507	Valla _Baja_Chocar_2	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Valla _Baja_Chocar_2_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Valla_Baja\Valla _Baja_Chocar_2		250960
-	1024902077	Valla _Baja_Chocar_1	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Valla _Baja_Chocar_1_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Valla_Baja\Valla _Baja_Chocar_1		198060
-	1029030133	Raton16	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Raton16_818F3B66.wem		\Actor-Mixer Hierarchy\14258\Raton16		2646424
-	1056369216	Basura_Verde_Chocar_2	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Basura_Verde_Chocar_2_4AE6109F.wem		\Actor-Mixer Hierarchy\16532\Basurero verde\Basura_Verde_Chocar_2		192160
-	1066955445	Basura_Verde_Chocar_3	Y:\Documents\GitHub\Proyecto_Final-EJ\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Basura_Verde_Chocar_3_D62458F1.wem		\Actor-Mixer Hierarchy\16532\Basurero verde\Basura_Verde_Chocar_3		279260
+	111802474	Cono_Chocar_3	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Cono_Chocar_3_D7ADF005.wem		\Actor-Mixer Hierarchy\16532\Cono\Cono_Chocar_3		216160
+	122771692	Dead_Rat	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Dead_Rat_A0DFED51.wem		\Actor-Mixer Hierarchy\14258\Dead_Rat		384160
+	133830701	Valla_Alta_Chocar_1	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Valla_Alta_Chocar_1_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Valla_Alta\Valla_Alta_Chocar_1		137136
+	140513487	Valla_Alta_Chocar_3	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Valla_Alta_Chocar_3_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Valla_Alta\Valla_Alta_Chocar_3		137136
+	163917707	IMAN16	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\IMAN16_F58792BB.wem		\Actor-Mixer Hierarchy\14258\IMAN16		2646096
+	229889114	Valla_Doble_Chocar_3	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Valla_Doble_Chocar_3_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Valla_Doble\Valla_Doble_Chocar_3		224160
+	248067410	Valla_Doble_Chocar_1	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Valla_Doble_Chocar_1_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Valla_Doble\Valla_Doble_Chocar_1		192160
+	263604490	BasuraMetal_Chocar_2	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Basura metal 2_70BA5747.wem		\Actor-Mixer Hierarchy\16532\Basurero de metal\BasuraMetal_Chocar_2		169960
+	312190690	Electricity, Buzz & Hum, Fluorecent Light, Steady SND7984 3	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Electricity, Buzz & Hum, Fluorecent Light, Steady SND7984 3_4FF8404E.wem		\Actor-Mixer Hierarchy\14258\Electricity, Buzz & Hum, Fluorecent Light, Steady SND7984 3		2880096
+	374513752	Valla_Alta_Chocar_2	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Valla_Alta_Chocar_2_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Valla_Alta\Valla_Alta_Chocar_2		168476
+	388422600	dos_up	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\dos_up_90602617.wem		\Actor-Mixer Hierarchy\16532\dos_up		2880160
+	487927854	Basura_Verde_Chocar_1	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Basura_Verde_Chocar_1_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Basurero verde\Basura_Verde_Chocar_1		62960
+	499893161	BasuraMetal_Chocar_1	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Basura metal 1_47A0BFF9.wem		\Actor-Mixer Hierarchy\16532\Basurero de metal\BasuraMetal_Chocar_1		143052
+	583290668	BasuraMetal_Chocar_3	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Basura metal 3_702C784C.wem		\Actor-Mixer Hierarchy\16532\Basurero de metal\BasuraMetal_Chocar_3		144160
+	702754407	Valla _Baja_Chocar_3	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Valla _Baja_Chocar_3_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Valla_Baja\Valla _Baja_Chocar_3		197960
+	770749813	Cono_Chocar_1	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Cono_Chocar_1_0C6507A3.wem		\Actor-Mixer Hierarchy\16532\Cono\Cono_Chocar_1		120160
+	790019668	Cono_Chocar_2	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Cono_Chocar_2_32A5CD10.wem		\Actor-Mixer Hierarchy\16532\Cono\Cono_Chocar_2		216160
+	804666374	starup	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\starup_818F3B66.wem		\Actor-Mixer Hierarchy\16532\starup		3192160
+	823373834	Valla_Doble_Chocar_2	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Valla_Doble_Chocar_2_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Valla_Doble\Valla_Doble_Chocar_2		221460
+	1000781507	Valla _Baja_Chocar_2	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Valla _Baja_Chocar_2_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Valla_Baja\Valla _Baja_Chocar_2		250960
+	1024902077	Valla _Baja_Chocar_1	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Valla _Baja_Chocar_1_818F3B66.wem		\Actor-Mixer Hierarchy\16532\Valla_Baja\Valla _Baja_Chocar_1		198060
+	1029030133	Raton16	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Raton16_FBC78EF0.wem		\Actor-Mixer Hierarchy\14258\Raton16		2646424
+	1056369216	Basura_Verde_Chocar_2	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Basura_Verde_Chocar_2_4AE6109F.wem		\Actor-Mixer Hierarchy\16532\Basurero verde\Basura_Verde_Chocar_2		192160
+	1066955445	Basura_Verde_Chocar_3	Y:\Documents\GitHub\Proyecto_Final\APII_Ch18_Emmanuel_16532\.cache\Mac\SFX\Basura_Verde_Chocar_3_D62458F1.wem		\Actor-Mixer Hierarchy\16532\Basurero verde\Basura_Verde_Chocar_3		279260
 
