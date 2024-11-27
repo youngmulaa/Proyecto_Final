@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ED1FBBA4-F47F-46B9-921A-44255AF5BC7A}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="16532" ID="{ED1FBBA4-F47F-46B9-921A-44255AF5BC7A}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Mezcla" ID="{476DF676-261D-4051-8127-3B0B1A8C1AC6}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

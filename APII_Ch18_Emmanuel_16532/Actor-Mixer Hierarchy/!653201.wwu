@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E96ADD12-898F-4CF6-A654-E0AAF492361B}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="!653201" ID="{E96ADD12-898F-4CF6-A654-E0AAF492361B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Sardina Idle" ID="{E4A6D597-001B-41E9-B317-60775E7C6E1E}" ShortID="816403247">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="sardina" ID="{E3F58D70-0343-4120-A369-A9A2E30E2A40}">
+							<Language>SFX</Language>
+							<AudioFile>sardina.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="439858978"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="sardina" ID="{E3F58D70-0343-4120-A369-A9A2E30E2A40}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Daño_Cat" ID="{B7FDFD8C-486F-4DF7-B985-6CC61E7BB9E9}" ShortID="194383982">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Daño gato 2" ID="{FB1D11FB-5F92-4849-8B89-9259BF5A2674}" ShortID="932462306">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Daño gato 2" ID="{189DD44F-3EAA-4BFD-8A27-3877E1AFC3B9}">
+									<Language>SFX</Language>
+									<AudioFile>Daño gato 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="836083931"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Daño gato 2" ID="{189DD44F-3EAA-4BFD-8A27-3877E1AFC3B9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Daño gato 3" ID="{89AB723C-8DC0-40E4-B09A-70C82ABFBD75}" ShortID="996150651">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Daño gato 3" ID="{944EA32B-86A7-45D7-9086-969026E2C9C2}">
+									<Language>SFX</Language>
+									<AudioFile>Daño gato 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="365440648"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Daño gato 3" ID="{944EA32B-86A7-45D7-9086-969026E2C9C2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Daño gato 4" ID="{2ACF600C-5982-44B9-BB3E-C29C39F6AA21}" ShortID="84593463">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Daño gato 4" ID="{E7C6BA72-B057-4314-BCC7-DC6CDFE2B548}">
+									<Language>SFX</Language>
+									<AudioFile>Daño gato 4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="381877897"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Daño gato 4" ID="{E7C6BA72-B057-4314-BCC7-DC6CDFE2B548}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Daño gato" ID="{37C0D135-4239-45AB-986B-6EB4652508C1}" ShortID="460619033">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Daño gato" ID="{9289E55D-8066-40B5-8C7A-3C2B490E2526}">
+									<Language>SFX</Language>
+									<AudioFile>Daño gato.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="387649845"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Daño gato" ID="{9289E55D-8066-40B5-8C7A-3C2B490E2526}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Deslizar" ID="{4CC92368-9EFD-4FB1-9F30-84D859B19EDD}" ShortID="630786227">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="abajo 1" ID="{F10905B1-CC4A-46A0-B075-61E72355D9DB}" ShortID="582303744">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="abajo 1" ID="{4CE37EF4-D18D-4DC7-A89F-F3270EC28878}">
+									<Language>SFX</Language>
+									<AudioFile>abajo 1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="405017750"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="abajo 1" ID="{4CE37EF4-D18D-4DC7-A89F-F3270EC28878}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="abajo 2" ID="{0C149D18-0D5E-40B7-BAA4-E7BFBC53C9B2}" ShortID="911077199">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="abajo 2" ID="{7BE1AED9-E633-40F1-801D-296D19FAEFF3}">
+									<Language>SFX</Language>
+									<AudioFile>abajo 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="544525503"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="abajo 2" ID="{7BE1AED9-E633-40F1-801D-296D19FAEFF3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="abajo 3" ID="{4B99EDBC-6784-4FD7-85C7-BE743BFB48D5}" ShortID="553175460">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="abajo 3" ID="{36A459EC-3D48-47EB-82CB-675B3FEFACE7}">
+									<Language>SFX</Language>
+									<AudioFile>abajo 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="274789863"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="abajo 3" ID="{36A459EC-3D48-47EB-82CB-675B3FEFACE7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Daño_raccoon" ID="{5B09F9D0-6BF0-4348-A581-F47C8D78D86C}" ShortID="323553772">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Daño" ID="{9E6877DC-52CA-4291-BB87-F80BED73007F}" ShortID="68591945">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Daño" ID="{0A3BBD93-9F74-4BD2-B3C6-B740D2226C4D}">
+									<Language>SFX</Language>
+									<AudioFile>Daño.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="349311907"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Daño" ID="{0A3BBD93-9F74-4BD2-B3C6-B740D2226C4D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Daño_2" ID="{399FF448-820C-480C-8319-3BDBA3BE811E}" ShortID="161602563">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Daño_2" ID="{ED9EEFAF-D91A-457E-8759-A99463C53EF3}">
+									<Language>SFX</Language>
+									<AudioFile>Daño_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="79037268"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Daño_2" ID="{ED9EEFAF-D91A-457E-8759-A99463C53EF3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Daño_3" ID="{02536378-061A-47B6-8976-58CFFD5A6356}" ShortID="552724038">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Daño_3" ID="{E043452C-24F8-487A-B1BB-7938F0A71CCF}">
+									<Language>SFX</Language>
+									<AudioFile>Daño_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="698364831"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Daño_3" ID="{E043452C-24F8-487A-B1BB-7938F0A71CCF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<BlendContainer Name="Ambiente" ID="{18C123DE-EAE8-420B-818C-A39720651E1B}" ShortID="622760072">
+					<PropertyList>
+						<Property Name="BlendBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Ambience, Urban, City, Park, Birds, Wind, Distant Traffic SND0017" ID="{4EF08149-FFBB-4D7D-B15B-DBE6794095D6}" ShortID="937726323">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambience, Urban, City, Park, Birds, Wind, Distant Traffic SND0017" ID="{0092CB6F-2C83-4A5E-A8C3-3AE7EE1E2F75}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience, Urban, City, Park, Birds, Wind, Distant Traffic SND0017.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="726846761"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambience, Urban, City, Park, Birds, Wind, Distant Traffic SND0017" ID="{0092CB6F-2C83-4A5E-A8C3-3AE7EE1E2F75}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambience, Urban, City, Distant Traffic, Sirens Wailing, Walla SND2856 2" ID="{8CBE8777-4323-46A4-ABF4-842B0177579D}" ShortID="424925447">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambience, Urban, City, Distant Traffic, Sirens Wailing, Walla SND2856 2" ID="{601C2E9C-81A6-40BE-90BD-26FC58A1C6F0}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience, Urban, City, Distant Traffic, Sirens Wailing, Walla SND2856 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="351509145"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambience, Urban, City, Distant Traffic, Sirens Wailing, Walla SND2856 2" ID="{601C2E9C-81A6-40BE-90BD-26FC58A1C6F0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{C293C41F-D532-4394-B194-A1A925219FD3}" ShortID="498191991">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Mezcla" ID="{476DF676-261D-4051-8127-3B0B1A8C1AC6}" WorkUnitID="{ED1FBBA4-F47F-46B9-921A-44255AF5BC7A}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{5476362D-1266-4257-B4A6-AA5AEA421EAD}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{A9252579-DE8C-438E-8EF3-88010B4F6AA5}" ShortID="536105391">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="MidiTransposition"/>
+										</PropertyList>
+										<ReferenceList/>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
