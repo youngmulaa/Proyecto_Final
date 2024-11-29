@@ -10,6 +10,7 @@
 						<Switch Name="high" ID="{77B134D6-389A-4803-AFCA-D670A1806EF4}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<WorkUnit Name="16532" ID="{ABB4E463-434F-4923-BEAB-A867283B28CD}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

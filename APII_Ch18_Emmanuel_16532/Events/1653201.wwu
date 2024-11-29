@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DB6459E1-2C38-4AF2-94BA-2BDABFD0F786}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="1653201" ID="{DB6459E1-2C38-4AF2-94BA-2BDABFD0F786}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="catdano" ID="{53962915-0104-4369-A3C3-85616ACBCA24}"/>
+				<Event Name="raccoondano" ID="{45E94BE0-A925-4961-BCB3-4EA6BDB5C94F}"/>
+				<Event Name="ambs" ID="{29B57205-CA1C-4FF0-8081-7D48AABBF1F4}">
+					<ChildrenList>
+						<Action Name="" ID="{958D9794-CB39-41B6-91DD-F5E578F0BF1A}" ShortID="680552539">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambi" ID="{645223BC-E88E-4CD7-9818-6671EEE1F364}" WorkUnitID="{E96ADD12-898F-4CF6-A654-E0AAF492361B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
