@@ -153,6 +153,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="abajo 1" ID="{4CE37EF4-D18D-4DC7-A89F-F3270EC28878}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0948667357568028"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.10729698129252"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>abajo 1.wav</AudioFile>
 									<MediaIDList>
@@ -175,6 +180,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="abajo 2" ID="{7BE1AED9-E633-40F1-801D-296D19FAEFF3}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.102678571428571"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>abajo 2.wav</AudioFile>
 									<MediaIDList>
@@ -197,6 +206,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="abajo 3" ID="{36A459EC-3D48-47EB-82CB-675B3FEFACE7}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.258503401360544"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.51062925170068"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>abajo 3.wav</AudioFile>
 									<MediaIDList>
@@ -231,6 +245,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Daño" ID="{0A3BBD93-9F74-4BD2-B3C6-B740D2226C4D}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0392219387755103"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.728954081632653"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Daño.wav</AudioFile>
 									<MediaIDList>
@@ -253,6 +272,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Daño_2" ID="{ED9EEFAF-D91A-457E-8759-A99463C53EF3}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0466693239795919"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.653370535714286"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Daño_2.wav</AudioFile>
 									<MediaIDList>
@@ -275,6 +299,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Daño_3" ID="{E043452C-24F8-487A-B1BB-7938F0A71CCF}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0713773915816326"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0128713329081633"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Daño_3.wav</AudioFile>
 									<MediaIDList>
@@ -288,20 +317,26 @@
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>
-				<BlendContainer Name="Ambiente" ID="{18C123DE-EAE8-420B-818C-A39720651E1B}" ShortID="622760072">
-					<PropertyList>
-						<Property Name="BlendBehavior" Type="int16" Value="1"/>
-					</PropertyList>
+				<SwitchContainer Name="Ambi" ID="{645223BC-E88E-4CD7-9818-6671EEE1F364}" ShortID="397577065">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
 						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="dia" ID="{FF8D6DF0-CEDA-4E96-9583-304E7AC3B20F}" WorkUnitID="{ABB4E463-434F-4923-BEAB-A867283B28CD}"/>
+						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
 						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="ambientes" ID="{404512E5-702E-4058-B307-49F222B7A5BC}" WorkUnitID="{ABB4E463-434F-4923-BEAB-A867283B28CD}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Ambience, Urban, City, Park, Birds, Wind, Distant Traffic SND0017" ID="{4EF08149-FFBB-4D7D-B15B-DBE6794095D6}" ShortID="937726323">
+						<BlendContainer Name="Ambiente_dia" ID="{18C123DE-EAE8-420B-818C-A39720651E1B}" ShortID="622760072">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
@@ -311,19 +346,88 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Ambience, Urban, City, Park, Birds, Wind, Distant Traffic SND0017" ID="{0092CB6F-2C83-4A5E-A8C3-3AE7EE1E2F75}">
-									<Language>SFX</Language>
-									<AudioFile>Ambience, Urban, City, Park, Birds, Wind, Distant Traffic SND0017.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="726846761"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="Amb Dia 2" ID="{4EF08149-FFBB-4D7D-B15B-DBE6794095D6}" ShortID="937726323">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambience, Urban, City, Park, Birds, Wind, Distant Traffic SND0017" ID="{0092CB6F-2C83-4A5E-A8C3-3AE7EE1E2F75}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience, Urban, City, Park, Birds, Wind, Distant Traffic SND0017.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="726846761"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambience, Urban, City, Park, Birds, Wind, Distant Traffic SND0017" ID="{0092CB6F-2C83-4A5E-A8C3-3AE7EE1E2F75}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Amb Dia" ID="{8CBE8777-4323-46A4-ABF4-842B0177579D}" ShortID="424925447">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambience, Urban, City, Distant Traffic, Sirens Wailing, Walla SND2856 2" ID="{601C2E9C-81A6-40BE-90BD-26FC58A1C6F0}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience, Urban, City, Distant Traffic, Sirens Wailing, Walla SND2856 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="351509145"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambience, Urban, City, Distant Traffic, Sirens Wailing, Walla SND2856 2" ID="{601C2E9C-81A6-40BE-90BD-26FC58A1C6F0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Ambience, Urban, City, Park, Birds, Wind, Distant Traffic SND0017" ID="{0092CB6F-2C83-4A5E-A8C3-3AE7EE1E2F75}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Ambience, Urban, City, Distant Traffic, Sirens Wailing, Walla SND2856 2" ID="{8CBE8777-4323-46A4-ABF4-842B0177579D}" ShortID="424925447">
+							<BlendTrackList>
+								<BlendTrack Name="New Blend Track" ID="{E4B4196C-F2F9-4AE6-B1EB-BE1AE9CAD1F4}" ShortID="462667239">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Crosfade" ID="{476DF676-261D-4051-8127-3B0B1A8C1AC6}" WorkUnitID="{ED1FBBA4-F47F-46B9-921A-44255AF5BC7A}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Amb Dia 2" ID="{4EF08149-FFBB-4D7D-B15B-DBE6794095D6}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>60.0432916068867</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Amb Dia" ID="{8CBE8777-4323-46A4-ABF4-842B0177579D}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>39.4263619081779</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>100</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+						<BlendContainer Name="Ambiente_noche" ID="{E511B016-4AC8-4507-B5CF-12B184D2474E}" ShortID="697520328">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
@@ -333,69 +437,110 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Ambience, Urban, City, Distant Traffic, Sirens Wailing, Walla SND2856 2" ID="{601C2E9C-81A6-40BE-90BD-26FC58A1C6F0}">
-									<Language>SFX</Language>
-									<AudioFile>Ambience, Urban, City, Distant Traffic, Sirens Wailing, Walla SND2856 2.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="351509145"/>
-									</MediaIDList>
-								</AudioFileSource>
+								<Sound Name="amb_nigt_2" ID="{3EE3DC8C-0D8F-4C9A-97D8-5AA3B7BBD2D5}" ShortID="891391973">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambience, Insect, Countryside, Crickets, Insects, Summer, Night SND63873" ID="{6BFCF166-B949-4FDF-94C1-4CA5BAEA73FD}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience, Insect, Countryside, Crickets, Insects, Summer, Night SND63873.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="695541605"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambience, Insect, Countryside, Crickets, Insects, Summer, Night SND63873" ID="{6BFCF166-B949-4FDF-94C1-4CA5BAEA73FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="amb_night" ID="{725D8B57-E647-45FE-9067-CA360180015B}" ShortID="411499082">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4F0C8EE5-AF4C-490D-9616-6C792FC57B62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B007F9BD-04BD-4B82-B4CD-CF7C87BB05AF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambience, Tropical, Rainforest, Night, Malayan, Night, Heron, Calls, South Chidiya, Tapu 01 SND102613 1" ID="{C7D5A5B9-2F53-4273-996C-B8C6E432B054}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience, Tropical, Rainforest, Night, Malayan, Night, Heron, Calls, South Chidiya, Tapu 01 SND102613 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="802376792"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambience, Tropical, Rainforest, Night, Malayan, Night, Heron, Calls, South Chidiya, Tapu 01 SND102613 1" ID="{C7D5A5B9-2F53-4273-996C-B8C6E432B054}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Ambience, Urban, City, Distant Traffic, Sirens Wailing, Walla SND2856 2" ID="{601C2E9C-81A6-40BE-90BD-26FC58A1C6F0}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
+							<BlendTrackList>
+								<BlendTrack Name="New Blend Track" ID="{2B4DB923-F1FC-48AE-9DB4-D73DE0D799CA}" ShortID="358762551">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Crosfade" ID="{476DF676-261D-4051-8127-3B0B1A8C1AC6}" WorkUnitID="{ED1FBBA4-F47F-46B9-921A-44255AF5BC7A}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="amb_night" ID="{725D8B57-E647-45FE-9067-CA360180015B}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>57.3173231707317</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="amb_nigt_2" ID="{3EE3DC8C-0D8F-4C9A-97D8-5AA3B7BBD2D5}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>38.5655297704448</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>100</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
 					</ChildrenList>
-					<ObjectLists>
-						<ObjectList Name="RTPC">
-							<Reference>
-								<Local>
-									<RTPC Name="" ID="{C293C41F-D532-4394-B194-A1A925219FD3}" ShortID="498191991">
-										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="Volume"/>
-										</PropertyList>
-										<ReferenceList>
-											<Reference Name="ControlInput">
-												<ObjectRef Name="Mezcla" ID="{476DF676-261D-4051-8127-3B0B1A8C1AC6}" WorkUnitID="{ED1FBBA4-F47F-46B9-921A-44255AF5BC7A}"/>
-											</Reference>
-											<Reference Name="Curve">
-												<Custom>
-													<Curve Name="" ID="{5476362D-1266-4257-B4A6-AA5AEA421EAD}">
-														<PropertyList>
-															<Property Name="Flags" Type="int32" Value="3"/>
-														</PropertyList>
-														<PointList>
-															<Point>
-																<XPos>0</XPos>
-																<YPos>-200</YPos>
-																<Flags>5</Flags>
-															</Point>
-															<Point>
-																<XPos>100</XPos>
-																<YPos>0</YPos>
-																<Flags>37</Flags>
-															</Point>
-														</PointList>
-													</Curve>
-												</Custom>
-											</Reference>
-										</ReferenceList>
-									</RTPC>
-								</Local>
-							</Reference>
-							<Reference>
-								<Local>
-									<RTPC Name="" ID="{A9252579-DE8C-438E-8EF3-88010B4F6AA5}" ShortID="536105391">
-										<PropertyList>
-											<Property Name="PropertyName" Type="string" Value="MidiTransposition"/>
-										</PropertyList>
-										<ReferenceList/>
-									</RTPC>
-								</Local>
-							</Reference>
-						</ObjectList>
-					</ObjectLists>
-				</BlendContainer>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Ambiente_noche" ID="{E511B016-4AC8-4507-B5CF-12B184D2474E}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Ambiente_dia" ID="{18C123DE-EAE8-420B-818C-A39720651E1B}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="noche" ID="{B2C5412A-4A9E-4CD2-A5EB-152CE4A65FC0}"/>
+								<ItemList>
+									<ItemRef Name="Ambiente_noche" ID="{E511B016-4AC8-4507-B5CF-12B184D2474E}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="dia" ID="{FF8D6DF0-CEDA-4E96-9583-304E7AC3B20F}"/>
+								<ItemList>
+									<ItemRef Name="Ambiente_dia" ID="{18C123DE-EAE8-420B-818C-A39720651E1B}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

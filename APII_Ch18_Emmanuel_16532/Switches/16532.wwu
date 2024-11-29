@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ABB4E463-434F-4923-BEAB-A867283B28CD}" SchemaVersion="119" RootDocumentID="{98707433-CA0F-4E85-BCFC-00A2A39FB456}" ParentDocumentID="{98707433-CA0F-4E85-BCFC-00A2A39FB456}">
+	<Switches>
+		<WorkUnit Name="16532" ID="{ABB4E463-434F-4923-BEAB-A867283B28CD}" OwnerID="{98707433-CA0F-4E85-BCFC-00A2A39FB456}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="ambientes" ID="{404512E5-702E-4058-B307-49F222B7A5BC}">
+					<ChildrenList>
+						<Switch Name="dia" ID="{FF8D6DF0-CEDA-4E96-9583-304E7AC3B20F}"/>
+						<Switch Name="noche" ID="{B2C5412A-4A9E-4CD2-A5EB-152CE4A65FC0}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
